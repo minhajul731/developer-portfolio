@@ -16,6 +16,29 @@ h2 {
     font-size: 40px;
 }
 
+.navigation-style {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 10%;
+}
+
+.navigation-button {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: rgb(255, 145, 0);
+    background-color: rgba(216, 216, 216, 0.104);
+    font-size: 18px;
+}
+
+.navigation-button:hover {
+    background-color: rgba(119, 214, 255, 0.244);
+    color: black;
+}
+
 .top-banner {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
@@ -46,13 +69,18 @@ h2 {
 }
 
 .hire-me-button {
-    color: white;
     text-decoration: none;
     background-image: linear-gradient(rgb(255, 145, 0), rgb(255, 100, 92));
+    color: white;
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.hire-me-button:hover {
+    background-image: linear-gradient(rgba(123, 244, 255, 0.364), rgba(112, 131, 255, 0.353));
+    color: rgb(0, 0, 0);
 }
 
 .dream-big-section {
