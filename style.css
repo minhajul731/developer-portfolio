@@ -84,7 +84,12 @@ h2 {
     padding-left: 30px;
     padding-right: 10px;
     padding-bottom: 90px;
-    border-radius: 7px;
+    border-radius: 5px;
+    border-left: 5px solid rgb(250, 113, 92);
+}
+
+.experiance-junior-style {
+    border-left: 5px solid rgb(0, 17, 255);
 }
 
 .footer-section {
